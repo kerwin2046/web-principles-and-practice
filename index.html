@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <script>
+        // function runStack(n) {
+        //     if (n === 0) return 100
+        //     return runStack(n - 2)
+        // }
+        // runStack(50000)
+        var myname = '极客时间'
+        function showName() {
+            console.log(myname)
+            if (0) {
+                var myname = '极客邦'
+            }
+            console.log(myname)
+        }
+        showName()
+        function runStack2(n) {
+            while (true) {
+                if (n === 0) return 100
+                if (n === 1) return 200
+                n = n - 2
+            }
+        }
+        console.log(runStack2(50000))
+    </script>
+</body>
+
+</html>
