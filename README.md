@@ -1,10 +1,9 @@
-# 浏览器工作原理与实战
+# Web工程原理与实战
 
 > 本系列文章深入剖析浏览器的工作原理，涵盖从宏观架构到底层实现机制的方方面面。
 >
 > **2025 年全面更新**：所有文章已根据 ES2015-ES2025 标准、HTTP/2-HTTP/3（RFC 9114）、TLS 1.3、Chrome 最新多进程架构（Site Isolation、Servicification）、V8 引擎最新编译管线（Ignition → Sparkplug → Maglev → TurboFan）、Core Web Vitals（LCP/INP/CLS）等最新标准和技术进行了全面更新。每篇文章都增加了更深入的原理分析、现代最佳实践、以及与最新 Web 标准的对应关系。
 
-[原文链接](https://blog.poetries.top/browser-working-principle/)
 
 ## 宏观视角上的浏览器
 
