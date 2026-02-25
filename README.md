@@ -1,8 +1,8 @@
-# Web工程原理与实战
+# 全栈 + AI 工程实践
 
-> 本系列文章深入剖析浏览器的工作原理，涵盖从宏观架构到底层实现机制的方方面面。
+> 本系列从「工程落地」视角出发，系统讲解如何用现代 Web 全栈技术 + 大模型能力，搭建可线上运行的 AI 应用（聊天助手、RAG 知识库、智能代理、工作流编排等）。
 >
-> **2025 年全面更新**：所有文章已根据 ES2015-ES2025 标准、HTTP/2-HTTP/3（RFC 9114）、TLS 1.3、Chrome 最新多进程架构（Site Isolation、Servicification）、V8 引擎最新编译管线（Ignition → Sparkplug → Maglev → TurboFan）、Core Web Vitals（LCP/INP/CLS）等最新标准和技术进行了全面更新。每篇文章都增加了更深入的原理分析、现代最佳实践、以及与最新 Web 标准的对应关系。
+> **2025 年持续更新**：围绕 TypeScript/Node.js、React/Next.js、Go、Python、PostgreSQL、Redis、向量数据库、OpenAI/Claude 等主流技术栈，强调「从 0 到 1 可上线」的工程实践，而不是停留在 Demo。
 
 
 ## 宏观视角上的浏览器
@@ -19,7 +19,7 @@
 - [变量提升：JavaScript代码是按顺序执行的吗](./浏览器中的JavaScript执行机制/变量提升：JavaScript代码是按顺序执行的吗/index.md)
 - [调用栈：为什么JavaScript代码会出现栈溢出](./浏览器中的JavaScript执行机制/调用栈：为什么JavaScript代码会出现栈溢出/index.md)
 - [块级作用域：var缺陷以及为什么要引入let和const](./浏览器中的JavaScript执行机制/块级作用域：var缺陷以及为什么要引入let和const/index.md)
-- [作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择](./浏览器中的JavaScript执行机制/作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择/index.md)
+- [深度解析作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择](./浏览器中的JavaScript执行机制/作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择/index.md)
 - [this：从JavaScript执行上下文视角讲this](./浏览器中的JavaScript执行机制/this：从JavaScript执行上下文视角讲this/index.md)
 
 ## V8工作原理
@@ -99,3 +99,8 @@
 - 新增 **QUIC/HTTP3** 传输层介绍
 - 更新 **LayoutNG** 为当前默认引擎
 - 新增 **Speculation Rules API** 等现代导航优化
+
+
+## 书籍
+ 
+https://zh.d2l.ai/chapter_introduction/index.html 
